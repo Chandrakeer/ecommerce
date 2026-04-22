@@ -7,7 +7,7 @@ public class App {
     public static void main(String[] args){
 
         ApplicationContext context
-                = new ClassPathXmlApplicationContext("applicationConstructorInjection.xml");
+                = new ClassPathXmlApplicationContext("ApplicationConstructorInjection.xml");
 
         Car myCar = (Car) context.getBean("myCar");
         myCar.displayDetails();

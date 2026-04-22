@@ -1,8 +1,6 @@
-package com.loose.coupling;
+package com.IOC.coupling;
 
 public class NewDataBaseProvider implements UserDataProvider {
-    public NewDataBaseProvider() {
-    }
 
     @Override
     public String getUserDetails() {
