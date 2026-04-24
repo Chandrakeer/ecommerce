@@ -5,16 +5,13 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-
     <bean id="userDatabaseProvider" class="com.IOC.coupling.UserDatabaseProvider">
     </bean>
 
     <bean id="newDatabaseProvider" class="com.IOC.coupling.NewDataBaseProvider">
-
     </bean>
 
     <bean id="webServiceDatabaseProvider" class="com.IOC.coupling.WebServiceDataProvider">
-
     </bean>
 
     <bean id="userManagerWithUserDataProvider" class = "com.IOC.coupling.UserManager">
